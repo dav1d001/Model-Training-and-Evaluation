@@ -1,0 +1,19 @@
+# Versions the notebook was run with (Python 3.13, CPU only).
+# tensorflow==2.21.0 was run as the tensorflow-cpu build; either package works.
+tensorflow==2.21.0
+keras==3.15.1
+scikit-learn==1.9.1
+pandas==3.0.5
+numpy==2.5.3
+scipy==1.18.1
+matplotlib==3.11.2
+joblib==1.6.0
+wandb==0.31.0
+tensorboard==2.21.0
+h5py==3.14.0
+xlrd==2.0.2
+# to run / re-execute the notebook from the command line
+jupyter_client
+ipykernel==7.4.0
+nbformat==5.11.1
+nbconvert==7.17.2
