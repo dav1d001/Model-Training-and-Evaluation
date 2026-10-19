@@ -5,10 +5,8 @@ ALU Machine Learning summative project. Binary classification of credit-card def
 
 | Resource | Link |
 |---|---|
-| Written report (IEEE style) | `<ADD LINK or PDF>` |
-| Google Drive folder (raw data zip, model weights) | `<ADD LINK>` |
-| Presentation video | `<ADD LINK>` |
-
+| Written report (IEEE style) | `https://docs.google.com/document/d/1XsXSIMHKyRpxWyXHmzFaAZ0sD9umFy488ijKkqhN1kE/edit?usp=sharing)` |
+| Google Drive folder (raw data zip, model weights) | `<(https://drive.google.com/file/d/1hM3I0EFQ6Zmae8_S4urhcfyOzI7YPJBl/view?usp=sharing)>` |
 ## Question
 
 Given six months of repayment status, billed amounts and payments, which cardholders will miss the next
@@ -37,7 +35,6 @@ figures/                              figures used in the report
 wandb_logs/                           Weights & Biases offline runs (one per experiment)
 logs/                                 TensorBoard logs for the Keras runs
 models/                               saved best models (also in the Drive folder)
-data/                                 NOT committed; place raw.csv here (see below)
 ```
 
 ## Reproduce
