@@ -1,0 +1,87 @@
+{
+  "best_ml": "M8",
+  "best_dl": "D12",
+  "thresholds": {
+    "LR": 0.25939708958461316,
+    "ML": 0.2576173363414206,
+    "DL": 0.3300778567790985
+  },
+  "test": {
+    "LR": {
+      "exp": "M2",
+      "model": "Logistic regression",
+      "threshold": 0.2594,
+      "auc": 0.7502,
+      "auc_lo": 0.732,
+      "auc_hi": 0.7675,
+      "ap": 0.4967,
+      "ap_lo": 0.4626,
+      "ap_hi": 0.5289,
+      "acc": 0.7676,
+      "prec": 0.479,
+      "rec": 0.5713,
+      "f1": 0.5211
+    },
+    "ML": {
+      "exp": "M8",
+      "model": "Hist. gradient boosting (tuned)",
+      "threshold": 0.2576,
+      "auc": 0.783,
+      "auc_lo": 0.7669,
+      "auc_hi": 0.7992,
+      "ap": 0.5573,
+      "ap_lo": 0.5244,
+      "ap_hi": 0.5883,
+      "acc": 0.7791,
+      "prec": 0.5008,
+      "rec": 0.5934,
+      "f1": 0.5432
+    },
+    "DL": {
+      "exp": "D12",
+      "model": "MLP random search",
+      "threshold": 0.3301,
+      "auc": 0.7779,
+      "auc_lo": 0.7622,
+      "auc_hi": 0.7943,
+      "ap": 0.5523,
+      "ap_lo": 0.5182,
+      "ap_hi": 0.5859,
+      "acc": 0.7871,
+      "prec": 0.5175,
+      "rec": 0.5653,
+      "f1": 0.5403
+    }
+  },
+  "dl_seed_mean": 0.779760141649761,
+  "dl_seed_std": 0.0005620394316559406,
+  "n_rows": 30000,
+  "n_train": 21000,
+  "n_val": 4500,
+  "n_test": 4500,
+  "n_features_base": 29,
+  "n_features_eng": 40,
+  "n_experiments": 29,
+  "confusion": {
+    "ML": [
+      [
+        2915,
+        589
+      ],
+      [
+        405,
+        591
+      ]
+    ],
+    "DL": [
+      [
+        2979,
+        525
+      ],
+      [
+        433,
+        563
+      ]
+    ]
+  }
+}

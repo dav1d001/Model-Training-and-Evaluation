@@ -1,0 +1,4 @@
+role,exp,model,threshold,auc,auc_lo,auc_hi,ap,ap_lo,ap_hi,acc,prec,rec,f1
+LR,M2,Logistic regression,0.2594,0.7502,0.732,0.7675,0.4967,0.4626,0.5289,0.7676,0.479,0.5713,0.5211
+ML,M8,Hist. gradient boosting (tuned),0.2576,0.783,0.7669,0.7992,0.5573,0.5244,0.5883,0.7791,0.5008,0.5934,0.5432
+DL,D12,MLP random search,0.3301,0.7779,0.7622,0.7943,0.5523,0.5182,0.5859,0.7871,0.5175,0.5653,0.5403
