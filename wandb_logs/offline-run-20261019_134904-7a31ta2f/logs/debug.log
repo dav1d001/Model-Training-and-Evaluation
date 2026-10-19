@@ -1,0 +1,20 @@
+2026-10-19 13:49:04,311 INFO    MainThread:204 [wandb_init.py:setup_run_log_directory():740] Logging user logs to wandb_logs/wandb/offline-run-20261019_134904-7a31ta2f/logs/debug.log
+2026-10-19 13:49:04,312 INFO    MainThread:204 [wandb_init.py:setup_run_log_directory():741] Logging internal logs to wandb_logs/wandb/offline-run-20261019_134904-7a31ta2f/logs/debug-internal.log
+2026-10-19 13:49:04,312 INFO    MainThread:204 [wandb_init.py:init():784] calling init triggers
+2026-10-19 13:49:04,312 INFO    MainThread:204 [wandb_init.py:init():789] wandb.init called with sweep_config: {}
+config: {'family': 'Deep learning', 'model': 'MLP random search', 'features': 'eng', 'split': '70/15/15 stratified (21000/4500/4500)', 'seed': 42, 'hp_units': '(256, 128, 64)', 'hp_dropout': '0.3', 'hp_l2': '1e-05', 'hp_bn': 'True', 'hp_lr': '0.003', 'hp_kind': 'mlp', 'hp_batch': '256', 'hp_class_weight': 'None', 'hp_best_epoch': '12', 'hp_epochs_run': '22', 'hp_optimizer': 'Adam', '_wandb': {}}
+2026-10-19 13:49:04,312 INFO    MainThread:204 [wandb_init.py:init():832] starting backend
+2026-10-19 13:49:04,312 INFO    MainThread:204 [wandb_init.py:init():847] sending inform_init request
+2026-10-19 13:49:04,314 INFO    MainThread:204 [wandb_init.py:init():852] backend started and connected
+2026-10-19 13:49:04,315 INFO    MainThread:204 [wandb_init.py:init():922] updated telemetry
+2026-10-19 13:49:04,318 INFO    MainThread:204 [wandb_init.py:init():940] communicating run to backend with 90.0 second timeout
+2026-10-19 13:49:04,320 INFO    MainThread:204 [wandb_init.py:init():977] starting run threads in backend
+2026-10-19 13:49:04,490 INFO    MainThread:204 [wandb_run.py:_console_start():2528] atexit reg
+2026-10-19 13:49:04,491 INFO    MainThread:204 [wandb_run.py:_redirect():2378] redirect: wrap_raw
+2026-10-19 13:49:04,491 INFO    MainThread:204 [wandb_run.py:_redirect():2447] Wrapping output streams.
+2026-10-19 13:49:04,491 INFO    MainThread:204 [wandb_run.py:_redirect():2470] Redirects installed.
+2026-10-19 13:49:04,492 INFO    MainThread:204 [wandb_init.py:init():1015] run started, returning control to user process
+2026-10-19 13:49:04,497 INFO    MainThread:204 [wandb_run.py:_finish():2300] finishing run credit-default-classification/7a31ta2f
+2026-10-19 13:49:04,497 INFO    MainThread:204 [wandb_run.py:_atexit_cleanup():2495] got exitcode: 0
+2026-10-19 13:49:04,497 INFO    MainThread:204 [wandb_run.py:_restore():2477] restore
+2026-10-19 13:49:04,497 INFO    MainThread:204 [wandb_run.py:_restore():2483] restore done
